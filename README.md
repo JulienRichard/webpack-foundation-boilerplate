@@ -41,9 +41,11 @@ $ npm run build
 For load webpack on a custom proxy server add this code into the webpack config
 
 ```
-proxy: {
-    '/': {
-        target: 'http://localhost:8888'
+devServer: {
+    proxy: {
+        '/': {
+            target: 'http://localhost:8888'
+        }
     }
 }
 ```
