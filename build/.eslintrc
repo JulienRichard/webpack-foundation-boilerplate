@@ -1,0 +1,13 @@
+{
+    "parser": "babel-eslint",
+    "extends": "standard",
+    "rules": {
+        "no-unused-vars": 1,
+        "no-multiple-empty-lines": 1,
+        "no-tabs": 1,
+        "spaced-comment": 1,
+        "indent": [2, 4],
+        "quotes": [ 1, "single"],
+        "semi": [ 1, "never"]
+    }
+}
